@@ -3,6 +3,7 @@ from engine.engine import Engine
 
 class CapuletEngine(Engine):
     """A Capulet engine"""
+
     def __init__(self, current_mileage, last_service_mileage):
         """Initializes a CapuletEngine"""
         self.current_mileage = current_mileage
